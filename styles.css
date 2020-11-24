@@ -15,7 +15,7 @@ header h2 {
 }
 
 .site-footer {
-    background-image: linear-gradient(#CEC8FF, white);
+    background-image: linear-gradient(white,#CEC8FF );
     padding: 20px 0;
 }
 
@@ -49,6 +49,9 @@ header h2 {
     border: solid #5637DD;
     
 }
-.modal-header{
-    background-color: #901cad;
+#carouselButton{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
 }
